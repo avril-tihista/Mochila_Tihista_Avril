@@ -1,0 +1,25 @@
+Iniciar GIT en la carpeta donde está situado el proyecto: git init
+
+Agregar el nombre de usuario: git config --global user.name "miusuario"
+
+Agregar el correo: git config: --global user.email "micorreo"
+
+Para agregar todos los archivos: git add .
+
+Para seguimiento del estado de los archivos: git status
+
+Ve todos los commits: git log --oneline
+
+Para vincular el repositorio remoto al local: git remote add origin "link"
+
+Para subir el repositorio local al remoto: git push origin main
+
+Para clonar archivos del repositorio remoto: git clone
+
+Para actualizar el codigo: git pull
+
+Para crear una rama: git branch
+
+Para movernos de rama: git chekout
+
+Para agregar el contenido de la rama secundaria a la principal: git marge
