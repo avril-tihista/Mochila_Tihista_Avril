@@ -1,3 +1,5 @@
+Equipo 14.
+
 ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en 
 otros no?
 Por diseño y arquitectura del lenguaje. Algunos lenguajes de programación están diseñados y 
