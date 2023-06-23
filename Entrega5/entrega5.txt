@@ -1,0 +1,41 @@
+Utilice la maquina virtual online.
+Los pasos que realice son los siguientes:
+ubuntu $ git --version
+git version 2.25.1
+ubuntu $ git clone https://github.com/avril-tihista/Mochila_Tihista_Avril.git
+Cloning into 'Mochila_Tihista_Avril'...
+remote: Enumerating objects: 37, done.
+remote: Counting objects: 100% (37/37), done.
+remote: Compressing objects: 100% (30/30), done.
+remote: Total 37 (delta 8), reused 34 (delta 5), pack-reused 0
+Unpacking objects: 100% (37/37), 241.14 KiB | 14.18 MiB/s, done.
+ubuntu $ ls
+Mochila_Tihista_Avril  filesystem
+ubuntu $ cd Mochila_Tihista_Avril/
+ubuntu $ ls
+Entrega1  Entrega2  Entrega3  Entrega4  Entrega5  Git-Github
+ubuntu $ git branch Entrega5
+ubuntu $ git branch -a
+  Entrega5
+* main
+  remotes/origin/Entrega1
+  remotes/origin/Entrega2
+  remotes/origin/Entrega3
+  remotes/origin/Entrega4
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/origin/trabajo_github
+ubuntu $ git branch
+  Entrega5
+* main
+ubuntu $ git checkout Entrega5
+Switched to branch 'Entrega5'
+ubuntu $ ls
+Entrega1  Entrega2  Entrega3  Entrega4  Entrega5  Git-Github
+ubuntu $ cd Entrega5
+ubuntu $ ls
+Read.MD
+ubuntu $ touch entrega5.txt
+
+Luego agregue el archivo con "add .", para posteriormente utilizar "commit -m", y agregar mis datos de usuario y correo. Para finalizar utilice "git push origin Entrega5" y subi la 
+rama junto al archivo a la mochila. 
